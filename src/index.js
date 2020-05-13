@@ -7,8 +7,8 @@ import {createStore} from 'redux';
 import employeeReducer from './reducers/employeeReducer';
 import {Provider} from 'react-redux'
 
-let initialState = [{id:1,name:'John Doe',grade:1,dept:'React Redux School'},{id:2,name:'Jane Doe',grade:2,dept:'React Redux School'}
-,{id:3,name:'Terry Adams',grade:3,dept:'React Redux School'},{id:4,name:'Jenny Smith',grade:4,dept:'React Redux School'}];
+let initialState = [{id:1,name:'Yogesh K',grade:1,dept:'Production'},{id:2,name:'Vinay K',grade:2,dept:'Research'}
+,{id:3,name:'Mangesh K',grade:3,dept:'Engineering'},{id:4,name:'Nilesh K',grade:4,dept:'IT'}];
 
 if( localStorage.getItem("employees") === null)
 localStorage.setItem('employees',JSON.stringify(initialState));
